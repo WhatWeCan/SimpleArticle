@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_add_essay"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:src="@mipmap/icon_add_essay" />
+
+    <LinearLayout
+        android:id="@+id/ll_show_type"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_add_txt"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/icon_font" />
+
+        <ImageView
+            android:id="@+id/iv_add_pic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingLeft="6dp"
+            android:src="@mipmap/icon_pic" />
+
+        <ImageView
+            android:id="@+id/iv_add_radio"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingLeft="6dp"
+            android:src="@mipmap/icon_radio" />
+
+        <ImageView
+            android:id="@+id/iv_add_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingLeft="6dp"
+            android:src="@mipmap/icon_add_back" />
+    </LinearLayout>
+
+</LinearLayout>
